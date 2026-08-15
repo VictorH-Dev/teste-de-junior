@@ -1,0 +1,4 @@
+id,name,timestamp,cpu,memory,disk,has_problem,issues
+1,srv-web-01,2026-02-10T08:00:00Z,45,78,62,False,
+2,srv-db-01,2026-02-10T08:00:00Z,82,91,45,True,CPU acima de 80%; Memoria acima de 90%
+3,srv-app-01,2026-02-10T08:00:00Z,34,56,78,False,

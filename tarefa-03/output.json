@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-08-12T04:56:54.123704+00:00",
+  "summary": {
+    "total_urls": 3,
+    "successful": 3,
+    "failed": 0
+  },
+  "results": [
+    {
+      "url": "https://jsonplaceholder.typicode.com",
+      "status": "ok",
+      "status_code": 200,
+      "response_time_ms": 32.73,
+      "attempts": 1,
+      "checked_at": "2026-08-12T04:56:52.146248+00:00",
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "url": "https://api.github.com",
+      "status": "ok",
+      "status_code": 200,
+      "response_time_ms": 31.54,
+      "attempts": 1,
+      "checked_at": "2026-08-12T04:56:52.178174+00:00",
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "url": "https://httpbin.org/status/200",
+      "status": "ok",
+      "status_code": 200,
+      "response_time_ms": 1944.64,
+      "attempts": 1,
+      "checked_at": "2026-08-12T04:56:54.123335+00:00",
+      "error_type": null,
+      "error_message": null
+    }
+  ]
+}

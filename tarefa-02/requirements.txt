@@ -1,0 +1,1 @@
+# Esta tarefa usa apenas bibliotecas nativas do Python.

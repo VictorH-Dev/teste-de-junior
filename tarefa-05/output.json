@@ -1,0 +1,22 @@
+{
+  "user": {
+    "login": "octocat",
+    "name": "The Octocat",
+    "public_repos": 8,
+    "profile_url": "https://github.com/octocat"
+  },
+  "repositories": [
+    {
+      "name": "Hello-World",
+      "language": null,
+      "updated_at": "2026-01-01T00:00:00Z",
+      "url": "https://github.com/octocat/Hello-World"
+    }
+  ],
+  "rate_limit": {
+    "limit": 5000,
+    "remaining": 4999,
+    "reset": 1760000000
+  },
+  "demo_mode": true
+}

@@ -1,0 +1,4 @@
+alert_id,alert_name,confidence,risk_score,priority,matched_indicators,clean_indicators
+ALT-001,Malware/AgentTesla,high,100,Critico,3,0
+ALT-002,Phishing/Link,medium,5,Baixo,0,3
+ALT-003,Ransomware/LockBit,high,80,Critico,2,1

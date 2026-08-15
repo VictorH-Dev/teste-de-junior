@@ -1,0 +1,15 @@
+services:
+  url-monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: url-monitor:latest
+    container_name: url-monitor
+    environment:
+      PYTHONUNBUFFERED: "1"
+      CONFIG_PATH: /app/config.yaml
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./output:/app/output
+      - ./logs:/app/logs
+    restart: "no"

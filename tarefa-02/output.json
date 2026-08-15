@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "total_servers": 3,
+    "servers_with_problems": 1,
+    "averages": {
+      "cpu": 53.67,
+      "memory": 75.0,
+      "disk": 61.67
+    }
+  },
+  "servers": [
+    {
+      "id": 1,
+      "name": "srv-web-01",
+      "timestamp": "2026-02-10T08:00:00Z",
+      "metrics": {
+        "cpu": 45,
+        "memory": 78,
+        "disk": 62
+      },
+      "has_problem": false,
+      "issues": []
+    },
+    {
+      "id": 2,
+      "name": "srv-db-01",
+      "timestamp": "2026-02-10T08:00:00Z",
+      "metrics": {
+        "cpu": 82,
+        "memory": 91,
+        "disk": 45
+      },
+      "has_problem": true,
+      "issues": [
+        "CPU acima de 80%",
+        "Memoria acima de 90%"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "srv-app-01",
+      "timestamp": "2026-02-10T08:00:00Z",
+      "metrics": {
+        "cpu": 34,
+        "memory": 56,
+        "disk": 78
+      },
+      "has_problem": false,
+      "issues": []
+    }
+  ]
+}

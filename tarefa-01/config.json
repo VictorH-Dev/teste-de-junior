@@ -1,0 +1,10 @@
+{
+  "api_url": "https://jsonplaceholder.typicode.com/users",
+  "city_filters": [
+    "Carapicuíba",
+    "São Paulo",
+    "Osasco",
+    "Barueri"
+  ],
+  "output_dir": "."
+}

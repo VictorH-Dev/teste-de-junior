@@ -1,0 +1,4 @@
+﻿* c8c4ed4 docs: add git workflow execution output
+* b948d31 docs: add changelog and workflow documentation
+* f95d3ee feat: add HTTP health check endpoint
+* dd638dd chore: add initial healthcheck script

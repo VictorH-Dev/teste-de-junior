@@ -1,0 +1,31 @@
+{
+  "alerts": [
+    {
+      "id": "ALT-001",
+      "name": "Malware/AgentTesla",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_ip": "185.220.101.45",
+      "domain": "evil.example.com",
+      "confidence": "high",
+      "timestamp": "2026-07-22T10:30:00Z"
+    },
+    {
+      "id": "ALT-002",
+      "name": "Phishing/Link",
+      "sha256": "d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592",
+      "source_ip": "8.8.8.8",
+      "domain": "google.com",
+      "confidence": "medium",
+      "timestamp": "2026-07-22T10:31:00Z"
+    },
+    {
+      "id": "ALT-003",
+      "name": "Ransomware/LockBit",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_ip": "45.33.32.156",
+      "domain": "malware.test",
+      "confidence": "high",
+      "timestamp": "2026-07-22T10:32:00Z"
+    }
+  ]
+}

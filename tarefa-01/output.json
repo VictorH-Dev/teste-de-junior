@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-12T04:35:00.000000+00:00",
+  "city_filters": [
+    "Carapicuíba",
+    "São Paulo",
+    "Osasco",
+    "Barueri"
+  ],
+  "stats": {
+    "total_users": 0,
+    "companies": [],
+    "cities_checked": [
+      "Carapicuíba",
+      "São Paulo",
+      "Osasco",
+      "Barueri"
+    ],
+    "results_by_city": {
+      "Carapicuíba": {
+        "total_users": 0,
+        "companies": []
+      },
+      "São Paulo": {
+        "total_users": 0,
+        "companies": []
+      },
+      "Osasco": {
+        "total_users": 0,
+        "companies": []
+      },
+      "Barueri": {
+        "total_users": 0,
+        "companies": []
+      }
+    }
+  },
+  "users": []
+}

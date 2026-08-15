@@ -1,0 +1,10 @@
+urls:
+  - https://jsonplaceholder.typicode.com
+  - https://api.github.com
+  - https://httpbin.org/status/200
+
+max_retries: 3
+timeout: 10
+log_level: INFO
+output_dir: .
+log_file: monitor.log

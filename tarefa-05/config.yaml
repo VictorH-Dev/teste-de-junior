@@ -1,0 +1,5 @@
+base_url: https://api.github.com
+token_env_var: API_TOKEN
+token_file: ~/.config/token.txt
+cache_ttl_seconds: 300
+demo_username: octocat

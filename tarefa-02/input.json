@@ -1,0 +1,22 @@
+{
+  "servers": [
+    {
+      "id": 1,
+      "name": "srv-web-01",
+      "metrics": "cpu:45|mem:78|disk:62",
+      "timestamp": "2026-02-10T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "srv-db-01",
+      "metrics": "cpu:82|mem:91|disk:45",
+      "timestamp": "2026-02-10T08:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "srv-app-01",
+      "metrics": "cpu:34|mem:56|disk:78",
+      "timestamp": "2026-02-10T08:00:00Z"
+    }
+  ]
+}

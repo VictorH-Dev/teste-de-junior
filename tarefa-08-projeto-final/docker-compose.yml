@@ -1,0 +1,12 @@
+services:
+  ip-enricher:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ip-enricher:latest
+    container_name: ip-enricher
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./output:/app/output
+      - ./logs:/app/logs
+    restart: "no"

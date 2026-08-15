@@ -1,0 +1,4 @@
+{"timestamp": "2026-08-13T07:50:42.138603+00:00", "level": "INFO", "logger": "IPCollector", "message": "Consultando IP 8.8.8.8, tentativa 1"}
+{"timestamp": "2026-08-13T07:50:42.439710+00:00", "level": "INFO", "logger": "IPCollector", "message": "Consultando IP 1.1.1.1, tentativa 1"}
+{"timestamp": "2026-08-13T07:50:42.724326+00:00", "level": "INFO", "logger": "IPCollector", "message": "Consultando IP 185.220.101.45, tentativa 1"}
+{"timestamp": "2026-08-13T07:50:43.009174+00:00", "level": "INFO", "logger": "IPCollector", "message": "Consultando IP 45.33.32.156, tentativa 1"}

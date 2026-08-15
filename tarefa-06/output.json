@@ -1,0 +1,99 @@
+{
+  "summary": {
+    "total_alerts": 3,
+    "critical_indicators": 3,
+    "clean_indicators": 4
+  },
+  "alerts": [
+    {
+      "alert_id": "ALT-001",
+      "alert_name": "Malware/AgentTesla",
+      "confidence": "high",
+      "indicators": [
+        {
+          "type": "hash",
+          "value": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "matched": true,
+          "severity": "critical",
+          "reason": "Known malware hash"
+        },
+        {
+          "type": "ip",
+          "value": "185.220.101.45",
+          "matched": true,
+          "severity": "suspicious",
+          "reason": "Suspicious node"
+        },
+        {
+          "type": "domain",
+          "value": "evil.example.com",
+          "matched": true,
+          "severity": "critical",
+          "reason": "Known C2"
+        }
+      ],
+      "risk_score": 100,
+      "priority": "Critico"
+    },
+    {
+      "alert_id": "ALT-002",
+      "alert_name": "Phishing/Link",
+      "confidence": "medium",
+      "indicators": [
+        {
+          "type": "hash",
+          "value": "d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592",
+          "matched": false,
+          "severity": "clean",
+          "reason": null
+        },
+        {
+          "type": "ip",
+          "value": "8.8.8.8",
+          "matched": false,
+          "severity": "clean",
+          "reason": null
+        },
+        {
+          "type": "domain",
+          "value": "google.com",
+          "matched": false,
+          "severity": "clean",
+          "reason": null
+        }
+      ],
+      "risk_score": 5,
+      "priority": "Baixo"
+    },
+    {
+      "alert_id": "ALT-003",
+      "alert_name": "Ransomware/LockBit",
+      "confidence": "high",
+      "indicators": [
+        {
+          "type": "hash",
+          "value": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "matched": true,
+          "severity": "critical",
+          "reason": "Known ransomware hash"
+        },
+        {
+          "type": "ip",
+          "value": "45.33.32.156",
+          "matched": true,
+          "severity": "suspicious",
+          "reason": "Known scanner"
+        },
+        {
+          "type": "domain",
+          "value": "malware.test",
+          "matched": false,
+          "severity": "clean",
+          "reason": null
+        }
+      ],
+      "risk_score": 80,
+      "priority": "Critico"
+    }
+  ]
+}

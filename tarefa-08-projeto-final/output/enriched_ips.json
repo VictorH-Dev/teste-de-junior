@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-08-13T07:50:43.295310+00:00",
+  "source": "ip-api.com",
+  "results": [
+    {
+      "ip": "8.8.8.8",
+      "country": "United States",
+      "region": "Virginia",
+      "city": "Ashburn",
+      "latitude": 39.03,
+      "longitude": -77.5,
+      "isp": "Google LLC",
+      "organization": "Google Public DNS",
+      "asn": "AS15169 Google LLC",
+      "status": "enriched",
+      "error": null
+    },
+    {
+      "ip": "1.1.1.1",
+      "country": "Australia",
+      "region": "Queensland",
+      "city": "South Brisbane",
+      "latitude": -27.4766,
+      "longitude": 153.0166,
+      "isp": "Cloudflare, Inc",
+      "organization": "APNIC and Cloudflare DNS Resolver project",
+      "asn": "AS13335 Cloudflare, Inc.",
+      "status": "enriched",
+      "error": null
+    },
+    {
+      "ip": "185.220.101.45",
+      "country": "Germany",
+      "region": "Brandenburg",
+      "city": "Brandenburg an der Havel",
+      "latitude": 52.6171,
+      "longitude": 13.1207,
+      "isp": "Stiftung Erneuerbare Freiheit",
+      "organization": "ForPrivacyNET",
+      "asn": "AS60729 Stiftung Erneuerbare Freiheit",
+      "status": "enriched",
+      "error": null
+    },
+    {
+      "ip": "45.33.32.156",
+      "country": "United States",
+      "region": "California",
+      "city": "Fremont",
+      "latitude": 37.5483,
+      "longitude": -121.9886,
+      "isp": "Akamai Technologies, Inc.",
+      "organization": "Linode",
+      "asn": "AS63949 Akamai Connected Cloud",
+      "status": "enriched",
+      "error": null
+    }
+  ]
+}

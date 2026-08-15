@@ -1,0 +1,11 @@
+ips:
+  - 8.8.8.8
+  - 1.1.1.1
+  - 185.220.101.45
+  - 45.33.32.156
+
+max_retries: 3
+timeout: 10
+log_level: INFO
+output_dir: ./output
+logs_dir: ./logs
